@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhlado=self.webpackChunkhlado||[]).push([[854],{2854:(e,a,n)=>{n.r(a),n.d(a,{default:()=>l});var u=n(4915),h=n(184);function l(){return(0,h.jsx)(u.W2,{children:"Company"})}}}]);
+//# sourceMappingURL=854.6e5de982.chunk.js.map

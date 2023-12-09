@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhlado=self.webpackChunkhlado||[]).push([[264],{4264:(e,r,s)=>{s.r(r),s.d(r,{default:()=>c});var u=s(4915),a=s(184);function c(){return(0,a.jsx)(u.W2,{children:"Services"})}}}]);
+//# sourceMappingURL=264.1b566072.chunk.js.map

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkhlado=self.webpackChunkhlado||[]).push([[16],{16:(e,u,n)=>{n.r(u),n.d(u,{default:()=>a});var r=n(73),s=n(184);function a(){return(0,s.jsx)(r.W2,{children:"Requirements"})}}}]);
-//# sourceMappingURL=16.763acdeb.chunk.js.map

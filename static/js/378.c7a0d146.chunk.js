@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhlado=self.webpackChunkhlado||[]).push([[378],{2378:(e,r,s)=>{s.r(r),s.d(r,{default:()=>c});var u=s(4915),a=s(184);function c(){return(0,a.jsx)(u.W2,{children:"Projects"})}}}]);
+//# sourceMappingURL=378.c7a0d146.chunk.js.map
