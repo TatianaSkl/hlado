@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { Suspense } from 'react';
-import { Header, Loader } from 'components';
+import { Footer, Header, Loader } from 'components';
 
 export const SharedLayout = () => {
   return (
@@ -11,6 +11,7 @@ export const SharedLayout = () => {
         <Outlet />
       </Suspense>
       <ToastContainer autoClose={2500} />
+      <Footer />
     </>
   );
 };

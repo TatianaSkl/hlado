@@ -13,11 +13,11 @@ export const NavUser = styled.nav`
 
 export const LinkNav = styled(NavLink)`
   padding: 0px 13px;
-  /* border-radius: 12px;
-  border: 1px solid rgba(239, 237, 232, 0.2); */
   font-size: 14px;
   line-height: 46px;
-  font-weight: 500;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: ${props => props.theme.colors.accent};
   &:not(:last-child) {
     margin-bottom: 16px;
   }
@@ -37,8 +37,7 @@ export const LinkNav = styled(NavLink)`
     }
     &.active {
       border: none;
-      background-color: ${props => props.theme.colors.accent};
-      color: ${props => props.theme.colors.white};
+      color: ${props => props.theme.colors.black};
     }
   }
 `;

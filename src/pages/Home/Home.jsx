@@ -1,11 +1,14 @@
-import { BodyTop, Container } from 'components';
-import { Text, Title, WrapperWelcom } from './Home.styled';
+import { BackgroundSlideshow, BodyTop, Container } from 'components';
+import { Text, Title, Wrapper, WrapperWelcom } from './Home.styled';
 
 export default function Home() {
   return (
     <>
       <BodyTop />
       <WrapperWelcom>
+        <Wrapper>
+          <BackgroundSlideshow />
+        </Wrapper>
         <Container>
           <Title>ТехнологІЇ холоду</Title>
           <Text>

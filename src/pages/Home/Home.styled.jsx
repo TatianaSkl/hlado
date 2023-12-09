@@ -1,13 +1,28 @@
 import styled from '@emotion/styled';
 
 export const WrapperWelcom = styled.div`
+  position: relative;
   margin: 0 auto;
-  /* max-width: 1600px; */
-  height: 400px;
-  padding: 100px 0px;
+  padding: 75px 0px;
   @media (min-width: 1024px) {
-    padding: 200px 0px;
-    height: 600px;
+    padding: 60px 0px;
+  }
+`;
+
+export const Wrapper = styled.div`
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  @media (min-width: 768px) {
+    left: 23.2%;
+  }
+  @media (min-width: 1024px) {
+    left: 42.7%;
+  }
+  @media (min-width: 1200px) {
+    left: 59.3%;
   }
 `;
 

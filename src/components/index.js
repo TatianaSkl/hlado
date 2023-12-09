@@ -7,3 +7,5 @@ export * from 'components/Section/Section.styled.jsx';
 export * from 'components/SharedLayout/SharedLayout.jsx';
 export * from 'components/UserNav/UserNav.jsx';
 export * from 'components/BodyTop/BodyTop.jsx';
+export * from 'components/Footer/Footer.jsx';
+export * from 'components/BackgroundSlideshow/BackgroundSlideshow.jsx';

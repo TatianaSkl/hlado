@@ -6,11 +6,11 @@ export const HeaderStyled = styled.header`
   /* display: flex;
   justify-content: space-between;
   align-items: center; */
-  padding: 12px 0;
+
   /* border-bottom: 1px solid rgba(239, 237, 232, 0.2);
   border-color: ${props => props.theme.colors.accent}; */
   @media (min-width: 768px) {
-    padding: 19px 0;
+    padding-top: 19px;
   }
 `;
 
