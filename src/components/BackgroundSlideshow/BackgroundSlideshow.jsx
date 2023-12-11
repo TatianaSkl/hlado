@@ -7,6 +7,10 @@ const { foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8 } = bg;
 
 const images = [foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8];
 
+const CustomNextArrow = ({ currentSlide, slideCount, ...props }) => (
+  <button {...props} style={{ display: 'none' }} />
+);
+
 export const BackgroundSlideshow = () => {
   const settings = {
     dots: false,
@@ -15,6 +19,7 @@ export const BackgroundSlideshow = () => {
     fade: true,
     autoplay: true,
     autoplaySpeed: 5000,
+    nextArrow: <CustomNextArrow />,
   };
 
   return (

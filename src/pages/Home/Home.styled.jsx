@@ -11,14 +11,16 @@ export const WrapperWelcom = styled.div`
 
 export const Wrapper = styled.div`
   position: absolute;
-  width: 100%;
+  width: 375px;
   top: 0;
   left: 0;
   z-index: -1;
   @media (min-width: 768px) {
-    left: 23.2%;
+    width: 590px;
+    left: 23.24%;
   }
   @media (min-width: 1024px) {
+    float: left;
     left: 42.7%;
   }
   @media (min-width: 1200px) {

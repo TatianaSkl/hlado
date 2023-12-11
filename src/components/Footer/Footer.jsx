@@ -6,10 +6,12 @@ import {
   ItemSocial,
   LinkContact,
   LinkSocial,
+  ListContact,
   ListSocial,
   Logo,
   Wrapper,
   WrapperFooter,
+  WrapperLogo,
 } from './Footer.styled';
 import {
   FaFacebookF,
@@ -58,7 +60,9 @@ export const Footer = () => {
     <WrapperFooter>
       <Container>
         <Wrapper>
-          <Logo to="/">Хладотехніка</Logo>
+          <WrapperLogo>
+            <Logo to="/">Хладотехніка</Logo>
+          </WrapperLogo>
           <div>
             <ListSocial>
               <ItemSocial>
@@ -94,7 +98,7 @@ export const Footer = () => {
             </ListSocial>
           </div>
           <div>
-            <ul>
+            <ListContact>
               <ItemContact>
                 <LinkContact href="tel:+380975375457">
                   <BsFillTelephoneFill />
@@ -118,7 +122,7 @@ export const Footer = () => {
                   вул.Братиславська, б.52, офіс 630-631
                 </LinkContact>
               </li>
-            </ul>
+            </ListContact>
           </div>
           <div>
             <ul>

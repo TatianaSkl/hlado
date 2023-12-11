@@ -9,7 +9,7 @@ export const GlobalStyles = css`
 
   body {
     margin: 0;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: ${theme.colors.white};
     color: ${theme.colors.black};
     min-height: 100vh;

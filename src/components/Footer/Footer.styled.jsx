@@ -7,9 +7,23 @@ export const WrapperFooter = styled.footer`
 `;
 
 export const Wrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+`;
+
+export const WrapperLogo = styled.div`
+  margin-bottom: 32px;
+  text-align: center;
+  border-bottom: 1px solid rgba(239, 237, 232, 0.2);
+  border-color: ${props => props.theme.colors.white};
+  padding-bottom: 18px;
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+    border-bottom: none;
+  }
 `;
 
 export const Logo = styled(Link)`
@@ -17,6 +31,7 @@ export const Logo = styled(Link)`
   color: ${props => props.theme.colors.white};
   font-size: 24px;
   font-weight: 800;
+  padding-bottom: 24px;
   /* &:hover {
     transform: scale(1.02);
     box-shadow: ${props => props.theme.shadows.small};
@@ -26,11 +41,19 @@ export const Logo = styled(Link)`
 
 export const ListSocial = styled.ul`
   display: flex;
-  /* justify-content: flex-end; */
   align-items: center;
   flex-wrap: wrap;
   width: 145px;
   gap: 10px;
+`;
+
+export const ListContact = styled.ul`
+  margin-top: 18px;
+  margin-bottom: 18px;
+  @media (min-width: 768px) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 `;
 
 export const ItemSocial = styled.li`
@@ -54,11 +77,15 @@ export const LinkSocial = styled.a`
 `;
 
 export const ItemContact = styled.li`
-  margin-bottom: 10px;
+  @media (min-width: 768px) {
+    margin-bottom: 10px;
+  }
 `;
 
 export const LinkContact = styled.a`
   color: ${props => props.theme.colors.white};
+  font-size: 14px;
+  font-weight: 300;
   & svg {
     margin-right: 8px;
     width: 20px;
@@ -68,6 +95,12 @@ export const LinkContact = styled.a`
 `;
 
 export const Btn = styled.button`
-  margin-bottom: 2px;
   color: ${props => props.theme.colors.white};
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor: pointer;
+  @media (min-width: 768px) {
+    margin-bottom: 2px;
+  }
 `;

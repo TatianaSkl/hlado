@@ -11,39 +11,28 @@ export const Overlay = styled.div`
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 1200;
+  transition: left 0.3s ease;
 `;
 
 export const Wrapper = styled.div`
   position: relative;
   display: flex;
-  width: 200px;
+  width: 220px;
   height: 100vh;
-  padding: 145px 20px 20px 20px;
-  background-color: ${props => props.theme.colors.accent};
+  padding: 75px 10px 20px 10px;
+  background-color: ${props => props.theme.colors.white};
   flex-direction: column;
   justify-content: space-between;
-  @media (min-width: 768px) {
-    width: 350px;
-    padding: 180px 32px 32px 32px;
-  }
 `;
 
 export const IconClose = styled(AiOutlineClose)`
-  color: ${props => props.theme.colors.white};
+  color: ${props => props.theme.colors.accent};
   width: 20px;
   height: 20px;
-  @media (min-width: 768px) {
-    width: 32px;
-    height: 32px;
-  }
 `;
 
 export const ButtonClose = styled.button`
   position: absolute;
   top: 20px;
   right: 20px;
-  @media (min-width: 768px) {
-    top: 26px;
-    right: 32px;
-  }
 `;
