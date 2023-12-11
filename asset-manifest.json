@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hlado/static/css/main.1d7b54ea.css",
-    "main.js": "/hlado/static/js/main.f5f385f2.js",
-    "static/js/485.ed69e09c.chunk.js": "/hlado/static/js/485.ed69e09c.chunk.js",
+    "main.js": "/hlado/static/js/main.57da4a5a.js",
+    "static/js/485.0aeb2ea2.chunk.js": "/hlado/static/js/485.0aeb2ea2.chunk.js",
     "static/js/854.6e5de982.chunk.js": "/hlado/static/js/854.6e5de982.chunk.js",
     "static/js/186.f806e2c5.chunk.js": "/hlado/static/js/186.f806e2c5.chunk.js",
     "static/js/264.1b566072.chunk.js": "/hlado/static/js/264.1b566072.chunk.js",
@@ -10,10 +10,10 @@
     "static/js/197.095aec7f.chunk.js": "/hlado/static/js/197.095aec7f.chunk.js",
     "static/js/969.d72cd46b.chunk.js": "/hlado/static/js/969.d72cd46b.chunk.js",
     "static/js/16.dbca1fdd.chunk.js": "/hlado/static/js/16.dbca1fdd.chunk.js",
-    "static/media/foto7.jpg": "/hlado/static/media/foto7.15602f55729480cfda4b.jpg",
+    "static/media/foto7.jpg": "/hlado/static/media/foto7.bfe640d265bb0f8192bb.jpg",
+    "static/media/foto2.jpg": "/hlado/static/media/foto2.9e77ecc1d078ea6cd149.jpg",
     "static/media/foto4.jpg": "/hlado/static/media/foto4.d5fc893ef994d6d4ec94.jpg",
     "static/media/foto6.jpg": "/hlado/static/media/foto6.ecdaceeb3335ebe02bae.jpg",
-    "static/media/foto2.jpg": "/hlado/static/media/foto2.d2bc68ae85bec5b21710.jpg",
     "static/media/foto5.jpg": "/hlado/static/media/foto5.f110fdca09fbe758678e.jpg",
     "static/media/foto8.jpg": "/hlado/static/media/foto8.cbb342bc05ebc012dad3.jpg",
     "static/media/foto1.jpg": "/hlado/static/media/foto1.f23ef563830e3a4bbedf.jpg",
@@ -24,8 +24,8 @@
     "static/media/slick.woff": "/hlado/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/hlado/index.html",
     "main.1d7b54ea.css.map": "/hlado/static/css/main.1d7b54ea.css.map",
-    "main.f5f385f2.js.map": "/hlado/static/js/main.f5f385f2.js.map",
-    "485.ed69e09c.chunk.js.map": "/hlado/static/js/485.ed69e09c.chunk.js.map",
+    "main.57da4a5a.js.map": "/hlado/static/js/main.57da4a5a.js.map",
+    "485.0aeb2ea2.chunk.js.map": "/hlado/static/js/485.0aeb2ea2.chunk.js.map",
     "854.6e5de982.chunk.js.map": "/hlado/static/js/854.6e5de982.chunk.js.map",
     "186.f806e2c5.chunk.js.map": "/hlado/static/js/186.f806e2c5.chunk.js.map",
     "264.1b566072.chunk.js.map": "/hlado/static/js/264.1b566072.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.1d7b54ea.css",
-    "static/js/main.f5f385f2.js"
+    "static/js/main.57da4a5a.js"
   ]
 }
